@@ -44,3 +44,8 @@ We will evaluate the performance of these models and make a recommendation on wh
 ![](https://github.com/shahkibria/Credit_Risk_Analysis/blob/main/Screenshots/6.%20EasyEnsembleAdaBoost1.png)
 ![](https://github.com/shahkibria/Credit_Risk_Analysis/blob/main/Screenshots/6.%20EasyEnsembleAdaBoost2.png)
 
+Overall, we can see that the accuracy score for all over and undersampling methods were poor with scores ranging from the low 50 percents to the high 60 percents. using the ensable clasifiers improved the accuracy score to the high 80 percents or the low 90 percents. However, the precision of the both ensamble models remained poor leading on overall low F1 score for both. 
+
+## Summary
+
+The ensamble methods are much better at predicting high risk loans with accuracy in the high 80s to low 90s. However with a low precision for both models, we can see that there are a significantly high number of false positives. This means a significant number of customers are being turned down because they are being tagged as high risk even when they are not which means ultimately the bank is missing out on good customers and make a profit. Overall my recommendation would be to not use any of the 6 models used. 
